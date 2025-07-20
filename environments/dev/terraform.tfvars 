@@ -1,0 +1,9 @@
+environment = "dev"
+location    = "East US"
+project_name = "MyWebApp"
+resource_group_suffix = "dev"
+static_web_app_sku_tier = "Free"
+static_web_app_sku_size = "Free"
+storage_account_replication_type = "LRS" # [30]
+budget_amount = 50.0 # USD
+budget_contact_email = ["devops-alerts@example.com"]
