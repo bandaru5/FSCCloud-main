@@ -38,7 +38,7 @@ jobs:
       run: terraform validate
 
     - name: Terraform Plan
-      run: terraform plan -var-file="${{ github.event.inputs.environment }}.tfvars"
+      run: terraform plan -var-file="${{ github.event.inputs.environment }}.terraform.tfvars"
 
     - name: Terraform Apply
       if: github.ref == 'refs/heads/main'
