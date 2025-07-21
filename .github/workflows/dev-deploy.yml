@@ -17,10 +17,10 @@ jobs:
         working-directory: ./iac
 
     env:
-      ARM_CLIENT_ID: ${{ ae804023-6493-4238-ba56-8ec6171327f0 }}
-      ARM_CLIENT_SECRET: ${{ 1d77698e-8e19-4daf-9f65-345137856a34 }}
-      ARM_SUBSCRIPTION_ID: ${{ 29760404-2fa8-46e6-b53d-2e616c1be5ce }}
-      ARM_TENANT_ID: ${{ 004cf285-b50e-4fde-8f95-bd7de25ebe69 }}
+      ARM_CLIENT_ID: ${{ae804023-6493-4238-ba56-8ec6171327f0}}
+      ARM_CLIENT_SECRET: ${{1d77698e-8e19-4daf-9f65-345137856a34}}
+      ARM_SUBSCRIPTION_ID: ${{29760404-2fa8-46e6-b53d-2e616c1be5ce}}
+      ARM_TENANT_ID: ${{004cf285-b50e-4fde-8f95-bd7de25ebe69}}
 
     steps:
     - name: Checkout code
