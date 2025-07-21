@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./FSCCloud-main
+        working-directory: /Users/varun/Desktop/FSCCloud-main
 
     env:
       ARM_CLIENT_ID: ae804023-6493-4238-ba56-8ec6171327f0
