@@ -1,1 +1,10 @@
-
+environment = "prod"
+location    = "East US" # Primary region for Prod
+secondary_location = "West US" # Paired region for Prod DR
+project_name = "MyWebApp"
+resource_group_suffix = "prod"
+static_web_app_sku_tier = "Standard" # Standard tier for production [40]
+static_web_app_sku_size = "Standard" # Standard tier for production [40]
+storage_account_replication_type = "GZRS" # [30] (Geo-zone redundancy for Prod)
+budget_amount = 1000.0 # USD
+budget_contact_email = ["prod-alerts@example.com", "finance@example.com"]
